@@ -1,0 +1,197 @@
+p{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.pirate{
+    display: flex;
+    width: 100%;    
+    background-color:  yellow;
+    border-radius: 20px;
+    
+
+}
+
+.item{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex-grow: 1; 
+    border-radius: 15px; 
+    
+}
+#flex1{
+    background-color: brown ;
+    width: 100%;      
+}
+#flex2,#flex3{
+    background-color: black;
+}
+#flex4, #flex5, #flex6{
+    background-color: blue;
+}
+#flex7, #flex8{
+    background-color: coral;    
+}
+#flex8{
+    flex-grow: 2.35;
+    
+}
+
+/******************************************************************************************************
+******************                                                         ****************************
+******************          flex image                                     ****************************
+******************                                                         ****************************
+******************************************************************************************************/
+section{
+    margin-top: 100px;
+    
+}
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+.row-all{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    width: 100%;
+}
+.contenar{
+    width: 20%;
+    display: flex;    
+    flex-direction: column;
+}
+
+.child img{
+    width: 300px;  
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+#small img{
+    height: 150px;
+
+}
+/******************************************************************************************************
+******************                                                         ****************************
+******************          flex color sorcier                               ****************************
+******************                                                         ****************************
+******************************************************************************************************/
+.maraton{
+    display: flex;
+    width: 100%;   
+    justify-content: center;
+    flex-direction: column;
+}
+.sorcier{
+    display: flex;
+    width: 100%;    
+    border-radius: 20px;    
+    justify-content: center;
+}
+.poter{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    flex-grow:1; 
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#harry1{
+    background-color: yellow;
+}
+#harry2{
+    background-color: blue;
+}
+#harry3{
+    flex-grow: 4;
+    background-color: red;
+}
+#harry4{
+    background-color: green;
+}
+#harry5{
+    flex-grow: 3.5;
+    background-color: yellow;
+}
+#harry6{
+    flex-grow: 3;
+    background-color: yellow;
+}
+#harry7{
+    background-color: blue;
+}
+#harry8{
+    background-color: green;
+}
+#harry9{
+    background-color: red;
+}
+#harry10{
+    flex-grow: 3;
+    background-color: green;
+}
+#harry11{
+    background-color: yellow;
+}
+#harry12{
+    background-color: green;
+}
+#harry13{
+    background-color: red;
+}
+#harry14{
+    flex-grow: 3.5;
+    background-color: green;
+}
+#harry15{
+    background-color: blue;
+}
+#harry16{
+    background-color: green;
+}
+/******************************************************************************************************
+******************                                                         ****************************
+******************          flex piramid                                   ****************************
+******************                                                         ****************************
+******************************************************************************************************/
+
+.piramid{
+    display: flex;
+    width: 100%;   
+    justify-content: center;
+    flex-direction: column; 
+
+}
+
+
+.parent{
+    display: flex;
+    width: 100%;
+    flex-direction: row;        
+    justify-content: center;
+    margin: 1px;
+}
+.piramid img{
+    width: 50px;
+    height: 100px;
+    object-fit: cover;
+    margin: 5px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.piramid img:hover{
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
